@@ -1,10 +1,27 @@
 """Configuration module using pydantic-settings for environment validation."""
 
+import os
 from functools import lru_cache
 from typing import Literal
 
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+def _load_streamlit_secrets() -> None:
+    """Load Streamlit secrets into environment variables if available."""
+    try:
+        import streamlit as st
+        if hasattr(st, "secrets"):
+            for key in ["GROQ_API_KEY", "LLAMA_CLOUD_API_KEY", "QDRANT_URL", "QDRANT_API_KEY", "REDIS_URL"]:
+                if key in st.secrets and key not in os.environ:
+                    os.environ[key] = st.secrets[key]
+    except Exception:
+        pass  # Not running in Streamlit or secrets not configured
+
+
+# Attempt to load Streamlit secrets before Settings initialization
+_load_streamlit_secrets()
 
 
 class Settings(BaseSettings):

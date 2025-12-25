@@ -3,11 +3,15 @@
 import asyncio
 from typing import AsyncIterator
 
+import nest_asyncio
 import streamlit as st
 
 from core.retriever import HybridRetriever
 from core.generator import LegalGenerator
 from models.schema import LegalChunk
+
+# Allow nested event loops (required for Streamlit Cloud)
+nest_asyncio.apply()
 
 # ============================================================
 # Page Configuration

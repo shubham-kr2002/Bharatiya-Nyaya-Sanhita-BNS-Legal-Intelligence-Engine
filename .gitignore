@@ -2,18 +2,6 @@
 .env.*
 venv/
 .venv/
-./python-cache/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pyds
-*.so
-*.dylib
-*.dll
-*.exe
-*.
-.__pycache__/
 # Python
 venv/
 __pycache__/
@@ -24,6 +12,9 @@ __pycache__/
 .env
 .env.*
 
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
 # ML / AI
 *.pt
 *.pth
@@ -32,6 +23,7 @@ __pycache__/
 *.onnx
 *.joblib
 *.pkl
+
 
 # Data
 data/
