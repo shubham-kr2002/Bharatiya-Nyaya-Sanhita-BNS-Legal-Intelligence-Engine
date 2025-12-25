@@ -1,0 +1,49 @@
+# Production-grade RAG System for Indian Law (BNS)
+# Pinned versions for stability
+
+# ============================================
+# Ops: FastAPI & Server
+# ============================================
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic-settings==2.7.0
+pydantic==2.10.4
+streamlit==1.41.1
+
+# ============================================
+# AI: LangChain Ecosystem
+# ============================================
+langchain==0.3.14
+langchain-groq==0.2.3
+langchain-qdrant==0.2.0
+langchain-huggingface==0.1.2
+langchain-core==0.3.29
+langchain-community==0.3.14
+
+# ============================================
+# Data: Document Parsing & Vector DB
+# ============================================
+llama-parse==0.5.19
+qdrant-client==1.12.1
+redis==5.2.1
+
+# ============================================
+# Utilities
+# ============================================
+python-multipart==0.0.20
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
+
+# ============================================
+# Re-ranking
+# ============================================
+flashrank==0.2.9
+
+# ============================================
+# Additional Production Dependencies
+# ============================================
+python-dotenv==1.0.1
+nest-asyncio==1.6.0
+tenacity==9.0.0
+structlog==24.4.0

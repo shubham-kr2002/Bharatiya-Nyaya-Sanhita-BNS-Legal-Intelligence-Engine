@@ -1,0 +1,54 @@
+.env
+.env.*
+venv/
+.venv/
+./python-cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyds
+*.so
+*.dylib
+*.dll
+*.exe
+*.
+.__pycache__/
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.*
+
+# ML / AI
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.joblib
+*.pkl
+
+# Data
+data/
+datasets/
+*.pdf
+*.csv
+*.xlsx
+*.jsonl
+
+# Vector DBs
+chroma/
+faiss/
+weaviate/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store

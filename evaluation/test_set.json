@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "What is the punishment for mob lynching under BNS?",
+    "correct_answer": "When murder is committed by five or more persons on grounds of race, caste, community, sex, place of birth, language, personal belief or any other similar ground, each of such persons shall be punished with death or with imprisonment for life, and shall also be liable to fine (Section 103(2) BNS).",
+    "source_chunk_id": "bns_sec_103",
+    "source_text": "Section 103 - Punishment for murder",
+    "metadata": {
+      "source_document": "bns.pdf",
+      "section_number": "103",
+      "doc_category": "act"
+    }
+  },
+  {
+    "id": 2,
+    "question": "What is the punishment for rape under BNS Section 64?",
+    "correct_answer": "Whoever commits rape shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine (Section 64 BNS).",
+    "source_chunk_id": "bns_sec_64",
+    "source_text": "Section 64 - Punishment for rape",
+    "metadata": {
+      "source_document": "bns.pdf",
+      "section_number": "64",
+      "doc_category": "act"
+    }
+  },
+  {
+    "id": 3,
+    "question": "What are the bail provisions for non-bailable offences under BNSS?",
+    "correct_answer": "Under BNSS Sections 479-484, bail in non-bailable offences is at the discretion of the Court. A person accused of a non-bailable offence may be released on bail if the Court believes there are reasonable grounds that the accused is not guilty and is not likely to commit any offence while on bail.",
+    "source_chunk_id": "bnss_sec_479",
+    "source_text": "Section 479 - Provisions as to Bail and Bonds",
+    "metadata": {
+      "source_document": "bnss.pdf",
+      "section_number": "479",
+      "doc_category": "act"
+    }
+  },
+  {
+    "id": 4,
+    "question": "What is the Right to Life under Article 21 of the Constitution?",
+    "correct_answer": "Article 21 of the Constitution states that no person shall be deprived of his life or personal liberty except according to procedure established by law. This is a fundamental right that has been expansively interpreted to include right to live with dignity, right to livelihood, right to health, right to education, and many other rights.",
+    "source_chunk_id": "const_art_21",
+    "source_text": "Article 21 - Protection of life and personal liberty",
+    "metadata": {
+      "source_document": "const.pdf",
+      "section_number": "21",
+      "doc_category": "constitution"
+    }
+  },
+  {
+    "id": 5,
+    "question": "What is the procedure for arrest without warrant under BNSS?",
+    "correct_answer": "Under BNSS Sections 35-37, a police officer may without warrant arrest any person who has been concerned in any cognizable offence, against whom a reasonable complaint has been made or credible information received, or whom there is a reasonable suspicion of having been so concerned.",
+    "source_chunk_id": "bnss_sec_35",
+    "source_text": "Section 35 - When police may arrest without warrant",
+    "metadata": {
+      "source_document": "bnss.pdf",
+      "section_number": "35",
+      "doc_category": "act"
+    }
+  },
+  {
+    "id": 6,
+    "question": "What is the punishment for culpable homicide not amounting to murder under BNS?",
+    "correct_answer": "Under BNS Section 105, whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life, or imprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+    "source_chunk_id": "bns_sec_105",
+    "source_text": "Section 105 - Punishment for culpable homicide not amounting to murder",
+    "metadata": {
+      "source_document": "bns.pdf",
+      "section_number": "105",
+      "doc_category": "act"
+    }
+  },
+  {
+    "id": 7,
+    "question": "What is the Right to Equality under Article 14 of the Constitution?",
+    "correct_answer": "Article 14 of the Constitution states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. This prohibits class legislation but permits reasonable classification for the purpose of legislation.",
+    "source_chunk_id": "const_art_14",
+    "source_text": "Article 14 - Equality before law",
+    "metadata": {
+      "source_document": "const.pdf",
+      "section_number": "14",
+      "doc_category": "constitution"
+    }
+  },
+  {
+    "id": 8,
+    "question": "What constitutes the offence of theft under BNS?",
+    "correct_answer": "Under BNS Section 303, whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft. The punishment for theft is imprisonment up to three years, or fine, or both.",
+    "source_chunk_id": "bns_sec_303",
+    "source_text": "Section 303 - Theft",
+    "metadata": {
+      "source_document": "bns.pdf",
+      "section_number": "303",
+      "doc_category": "act"
+    }
+  }
+]
